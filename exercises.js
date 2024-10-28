@@ -92,3 +92,19 @@ function animalDescription(noun = "cat", adjective = "white") {
   
   
   animalDescription()
+
+  // Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
+// Your code here
+
+let taste = pizza === 'tasty' ? 'yum' : 'yuck'
+
+console.log(taste)
