@@ -11,3 +11,14 @@ const multipliedNums = nums.map ((num) => {
 })
 
 console.log(multipliedNums)
+
+// Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
+
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Your code here
+
+const [firstTopping, secondTopping, thirdTopping] = pizzaToppings
+console.log (firstTopping)
+console.log (secondTopping)
+console.log(thirdTopping)
